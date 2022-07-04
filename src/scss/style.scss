@@ -28,6 +28,10 @@
     font-weight: 900;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -404,6 +408,8 @@
             flex-direction: column;
             width: 100%;
             max-width: 460px;
+            position: relative;
+            z-index: 10;
 
             &--title {
                 font-size: 44px;
